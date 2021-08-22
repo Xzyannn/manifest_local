@@ -5,24 +5,22 @@
             fetch="https://github.com/rasenss"/>
      <remote name="protonclang"
             fetch="https://github.com/kdrag0n" />
-     <remote name="arrowos"
-            fetch="https://github.com/ArrowOS-Devices" />
+     <remote name="Lineage"
+            fetch="https://github.com/ginkgo-dev" />
      <remote name="lineg"
             fetch="https://github.com/LineageOS" />
-     <remote name="arrow"
-            fetch="https://github.com/ArrowOS" />
-
+     
 
    <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
-        
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="Los11" /> 
+       
       
   <!-- Vendor Trees -->
-        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
+        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="Lineage" revision="lineage-18.1" />
       
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="Lineage" revision="lineage-18.1" />
         
       
   <!-- Clang & MiuiCamera -->
