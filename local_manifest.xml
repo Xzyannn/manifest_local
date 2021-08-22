@@ -11,9 +11,7 @@
             fetch="https://github.com/LineageOS" />
      <remote name="arrowos"
             fetch="https://github.com/ArrowOS-Devices" />
-      <remote name="arrow"
-            fetch="https://github.com/ArrowOS" />
-
+      
 
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="Los11" /> 
