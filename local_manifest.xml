@@ -31,7 +31,7 @@
   
 <!-- additional -->
         <project name="android_vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="lineg" revision="lineage-18.1" />
- 
+       <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineg" revision="lineage-18.1" />
 <!-- Hals -->
        <remove-project name="platform_hardware_qcom_display-sm8150-caf" /> 
        <remove-project name="platform_hardware_qcom_media-sm8150-caf" />
